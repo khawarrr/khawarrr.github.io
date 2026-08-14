@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Khawar Khan — Software Engineer</title>
+  <meta name="description" content="Portfolio of Khawar Khan, software engineer. Projects, skills, and contact." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container">
+      <a href="#top" class="brand">KK</a>
+      <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><button class="theme-toggle" aria-label="Toggle dark mode">🌙</button></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="top">
+    <!-- HERO -->
+    <section class="hero container">
+      <p class="hero-eyebrow">Hi, my name is</p>
+      <h1 class="hero-name">Khawar Khan.</h1>
+      <h2 class="hero-tagline">I build things for the web &amp; beyond.</h2>
+      <p class="hero-intro">
+        I'm a software engineer who enjoys turning ideas into fast, polished products —
+        from React web apps to native mobile experiences. I care about clean code,
+        good UX, and shipping things that people actually use.
+      </p>
+      <div class="hero-cta">
+        <a class="btn btn-primary" href="#projects">View my work</a>
+        <a class="btn btn-ghost" href="#contact">Get in touch</a>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section container">
+      <h2 class="section-title"><span class="section-num">01.</span> About Me</h2>
+      <div class="about-grid">
+        <div class="about-text">
+          <p>
+            I'm an aspiring software engineer with a focus on building practical,
+            user-facing applications. I like working across the stack — designing
+            interfaces, wiring up data, and getting things running on real devices.
+          </p>
+          <p>
+            My most recent project, <strong>ScoreMax</strong>, is a multi-sport live-score
+            app that pulls real data from ESPN's API and ships as both a web app and a
+            native iOS app. Building it taught me a lot about React, TypeScript, API
+            integration, and mobile deployment.
+          </p>
+          <p>Here are a few technologies I've been working with recently:</p>
+          <ul class="about-tech">
+            <li>JavaScript / TypeScript</li>
+            <li>React 19</li>
+            <li>HTML &amp; CSS</li>
+            <li>Vite</li>
+            <li>Capacitor (iOS)</li>
+            <li>REST APIs</li>
+          </ul>
+        </div>
+        <div class="about-photo">
+          <div class="photo-frame">
+            <div class="photo-placeholder">KK</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section container">
+      <h2 class="section-title"><span class="section-num">02.</span> Projects</h2>
+
+      <!-- Featured project -->
+      <article class="project-featured">
+        <div class="project-featured-content">
+          <p class="project-overline">Featured Project</p>
+          <h3 class="project-title">ScoreMax</h3>
+          <div class="project-desc">
+            <p>
+              A multi-sport schedule and live-score app covering Basketball (NBA/NCAA),
+              Soccer (Premier League, La Liga, Bundesliga, Serie A, Ligue 1, MLS,
+              Champions League), NFL, MLB, NHL, and Cricket. Users get live scores,
+              expandable game details — scorers, box scores, stat leaders — and can
+              reorder tabs to put their favorite sports first.
+            </p>
+            <p>
+              Data comes from ESPN's free public API (no key required). The app is built
+              as a responsive web app and ships to iPhone as a native app via Capacitor,
+              with a custom icon and launch screen.
+            </p>
+          </div>
+          <ul class="project-tech-list">
+            <li>React 19</li>
+            <li>TypeScript</li>
+            <li>Vite</li>
+            <li>Capacitor / iOS</li>
+            <li>ESPN API</li>
+          </ul>
+          <div class="project-links">
+            <a href="#" aria-label="GitHub repository" title="Add your GitHub link">Code ↗</a>
+            <a href="#" aria-label="Live demo" title="Add your live demo link">Live ↗</a>
+          </div>
+        </div>
+        <div class="project-featured-visual">
+          <div class="project-mock">
+            <span>⚽ 🏀 🏈 ⚾ 🏒</span>
+            <p>ScoreMax</p>
+          </div>
+        </div>
+      </article>
+
+      <!-- Placeholder grid -->
+      <div class="project-grid">
+        <article class="project-card">
+          <div class="project-card-top">
+            <span class="folder-icon">📁</span>
+            <div class="project-links">
+              <a href="#" title="Add link">↗</a>
+            </div>
+          </div>
+          <h3 class="project-card-title">Project Two</h3>
+          <p class="project-card-desc">
+            A short description of your next project goes here. Explain what problem it
+            solves and what you built.
+          </p>
+          <ul class="project-card-tech">
+            <li>Tech</li><li>Stack</li><li>Here</li>
+          </ul>
+        </article>
+
+        <article class="project-card">
+          <div class="project-card-top">
+            <span class="folder-icon">📁</span>
+            <div class="project-links">
+              <a href="#" title="Add link">↗</a>
+            </div>
+          </div>
+          <h3 class="project-card-title">Project Three</h3>
+          <p class="project-card-desc">
+            Another placeholder. Swap in a real project as you build your portfolio —
+            each card links out to code or a demo.
+          </p>
+          <ul class="project-card-tech">
+            <li>Tech</li><li>Stack</li><li>Here</li>
+          </ul>
+        </article>
+
+        <article class="project-card">
+          <div class="project-card-top">
+            <span class="folder-icon">📁</span>
+            <div class="project-links">
+              <a href="#" title="Add link">↗</a>
+            </div>
+          </div>
+          <h3 class="project-card-title">Project Four</h3>
+          <p class="project-card-desc">
+            Keep adding projects here. A few well-explained projects say more than a
+            long list.
+          </p>
+          <ul class="project-card-tech">
+            <li>Tech</li><li>Stack</li><li>Here</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section container">
+      <h2 class="section-title"><span class="section-num">03.</span> Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-group">
+          <h3>Languages</h3>
+          <ul><li>JavaScript</li><li>TypeScript</li><li>HTML</li><li>CSS</li></ul>
+        </div>
+        <div class="skill-group">
+          <h3>Frameworks &amp; Tools</h3>
+          <ul><li>React</li><li>Vite</li><li>Capacitor</li><li>Git</li></ul>
+        </div>
+        <div class="skill-group">
+          <h3>Concepts</h3>
+          <ul><li>REST APIs</li><li>Responsive Design</li><li>Mobile Deployment</li><li>UI/UX</li></ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section container contact">
+      <h2 class="section-title centered"><span class="section-num">04.</span> Get In Touch</h2>
+      <p class="contact-text">
+        I'm currently looking for software engineering opportunities. Whether you have a
+        question, an opportunity, or just want to say hi, my inbox is open — I'll do my
+        best to get back to you.
+      </p>
+      <a class="btn btn-primary" href="mailto:hoodieraw95@gmail.com">Say Hello</a>
+      <div class="social-links">
+        <a href="#" title="Add your GitHub">GitHub</a>
+        <a href="#" title="Add your LinkedIn">LinkedIn</a>
+        <a href="mailto:hoodieraw95@gmail.com">Email</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>Designed &amp; built by Khawar Khan · <span id="year"></span></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
